@@ -1,4 +1,7 @@
 h1{
+	
+	color: rgb(255,235,194);
+	background-color: rgb(204,58,0);
 	font-weight: normal; 
 	font-size: 2.5em; 
 	font-family: Georgia, Times, serif;
@@ -16,3 +19,9 @@ p{
 #credits{
 	font-style: italic; 	
 }
+ a:link{
+ 	text-decoration: none;
+ }
+ a:hover{
+ 	text-decoration: underline; 
+ }
