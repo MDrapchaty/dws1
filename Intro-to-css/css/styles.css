@@ -1,11 +1,25 @@
-body {}
+body {
+	font-family: Arial, Verdana, sans-serif;
+}
 
-#container {}
+#container {
+	border: 1px solid #665544;
+		background-color: #efefef;
+		padding: 10px;
+}
 
-h1, h2 {}
+h1, h2 {
+color: #ee3e80
+}
 
-#container p {}
+#container p {
+color: #665544
+}
 
-#container strong {}
+#container strong {
+color: green;
+}
 
-#container em {}
+#container em {
+color: violet;
+}

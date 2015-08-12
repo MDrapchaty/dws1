@@ -1,0 +1,18 @@
+h1{
+	font-weight: normal; 
+	font-size: 2.5em; 
+	font-family: Georgia, Times, serif;
+}
+h2{
+	font-weight: normal; 
+	font-size: .9em;
+	font-family: Gill Sans, Arial, or sans-serif;
+}
+p{
+	font-weight: normal;
+	font-size: 1.5em;
+	font-family: Arial, Verdana, or sans-serif;
+}
+#credits{
+	font-style: italic; 	
+}
