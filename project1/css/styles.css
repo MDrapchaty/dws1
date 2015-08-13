@@ -1,7 +1,7 @@
 #page {                               /* website css (page, headers)  */
 	color: rgb(166,3,3);
 	background-color: rgba(191,91,4,.7);       
-	width: 1240px auto;
+	/* width: 1240px auto; */  /* I attempted to put this in via instructions but received a syntax error  */
 }
 
 h1, h2, h3, h4{
@@ -11,6 +11,7 @@ h1, h2, h3, h4{
 }
 
 p{
+	font-weight: normal;
 	font-size: 16px;
 	font-family: Arial, sans-serif;
 	line-height: 16px;
@@ -98,7 +99,7 @@ a:active{
 	color: rgb(163,3,3);
 }
 
-.cap{
+.cap{						/*		figcap    */
 	color: rgb(242,25,5);
 }
 
