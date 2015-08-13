@@ -1,6 +1,51 @@
 #page {
 	color: rgb(166,3,3);
 	background-color: rgba(191,91,4,.7);
+	width: 1240px auto;
+}
+
+h1, h2, h3, h4{
+	padding: 40px;
+	text-align: center;
+	font-family: Oswald, Arial, sans-serif;
+}
+
+h2{
+	text-decoration: underline;
+}
+
+h3{
+	font-size: 24px;
+}
+
+h4{
+	font-size: 18px;
+}
+
+#content{
+	text-align: center;
+}
+
+.image{
+	width: 1000px;
+	margin: 0px auto;
+	background-color: rgb(79,115,2);
+}
+
+.image a{
+	border: 2px solid rgb(161,191,4);
+	width: 250px;
+	display: block;
+}
+
+.subIng{
+	text-align: center;
+}
+
+
+h1{
+	
+	font-size: 36px; 
 }
 
 #navBar {
@@ -13,10 +58,23 @@ a {
 	text-decoration: none;
 }
 
+.cap{
+	color: rgb(242,25,5);
+}
 
-li {
+#navBar li {
 	list-style-type: none;
 	display: inline;
 	margin-right: 20px;
 }
+#list1 li {
+	list-style-type: upper-roman;
+}
 
+li {
+	margin-top: 15px;
+	list-style-type: none;
+}
+#footer {
+	text-align: center ;
+}
