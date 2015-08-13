@@ -1,6 +1,6 @@
-#page {
+#page {                               /* website css (page, headers)  */
 	color: rgb(166,3,3);
-	background-color: rgba(191,91,4,.7);
+	background-color: rgba(191,91,4,.7);       
 	width: 1240px auto;
 }
 
@@ -10,7 +10,20 @@ h1, h2, h3, h4{
 	font-family: Oswald, Arial, sans-serif;
 }
 
+p{
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	line-height: 16px;
+}
+
+h1{
+	
+	font-size: 36px;
+	text-shadow: 2px 2px #ff0000; 
+}
+
 h2{
+	font-size: 30px;
 	text-decoration: underline;
 }
 
@@ -22,47 +35,74 @@ h4{
 	font-size: 18px;
 }
 
-#content{
+#content{                         /* content  */
 	text-align: center;
 }
 
-.image{
+#image1, #image2, #image3{			/* images/links css */
+	border-radius: 10px;
 	width: 1000px;
 	margin: 0px auto;
 	background-color: rgb(79,115,2);
+	box-shadow: 10px 10px 5px rgb(30,43,1);
 }
 
-.image a{
-	border: 2px solid rgb(161,191,4);
-	width: 250px;
+#image1 a{
+	border: 2px solid;
+	width: 650px;
+	height: 487px;
 	display: block;
+	margin: 20px auto;
 }
+
+#image2 a{
+	border: 2px solid;
+	width: 373px;
+	height: 248px;
+	display: block;
+	margin: 20px auto;
+} 
+
+#image3 a{
+	border: 2px solid;
+	width: 367px;
+	height: 271px;
+	display: block;
+	margin: 20px auto;
+} 
 
 .subIng{
 	text-align: center;
 }
 
 
-h1{
-	
-	font-size: 36px; 
-}
-
-#navBar {
+#navBar {       					/* links css  */
 	background-color: rgb(79,115,2);
 	text-align: center;
 }
 
 a {
-	color: rgb(169,191,4);
 	text-decoration: none;
+} 
+
+a:link{
+	color: rgb(169,191,4);	
+}
+a:visited{
+	color: rgb(242,25,5);
+}
+a:hover{
+	color: rgb(79,115,2);
+}
+a:active{
+	color: rgb(163,3,3);
 }
 
 .cap{
 	color: rgb(242,25,5);
 }
 
-#navBar li {
+#navBar li {					/* list css */
 	list-style-type: none;
 	display: inline;
 	margin-right: 20px;
@@ -75,6 +115,15 @@ li {
 	margin-top: 15px;
 	list-style-type: none;
 }
-#footer {
+#sidebar{					/* sidebar */
+ background-color: rgb(79,115,2);
+ width: 140px;
+ height: 340px;
+ text-align: left;
+ margin-left: 1125px;
+}
+
+
+#footer {						/* footer  */
 	text-align: center ;
 }
