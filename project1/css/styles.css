@@ -1,7 +1,8 @@
-#page {                               /* website css (page, headers)  */
+#page {                               /* main styles  */
 	color: rgb(166,3,3);
 	background-color: rgba(191,91,4,.7);       
-	/* width: 1240px auto; */  /* I attempted to put this in via instructions but received a syntax error  */
+	width: 100%;
+	
 }
 
 h1, h2, h3, h4{
@@ -38,11 +39,12 @@ h4{
 
 #content{                         /* content  */
 	text-align: center;
+	overflow: auto;
 }
 
-#image1, #image2, #image3{			/* images/links css */
+#image1, #image2, #image3{			/* images/links styling*/
 	border-radius: 10px;
-	width: 1000px;
+	width: 80%;
 	margin: 0px auto;
 	background-color: rgb(79,115,2);
 	box-shadow: 10px 10px 5px rgb(30,43,1);
@@ -73,11 +75,40 @@ h4{
 } 
 
 .subIng{
-	text-align: center;
+	font-size: 1.33em;
+	font-weight: bold;
+	text-decoration: underline; 
+} 
+
+#meat, #veg{         /* pattern   */
+	width: 40%;
+	padding: 0;
+	margin: 10px auto;
+	margin-left: 5%;
+	margin-right: 5%;
+	float: left;
+	background: url("../images/pattern.png");  
+	font-size: 1.33em;
+	font-weight: bold;
+	color: rgb(0,0,0); 
 }
 
+#size{              /* icon  */ 
+	height: 100px;
+	background: url("../images/icon.png") no-repeat 35% 50%;
+	
+}
 
-#navBar {       					/* links css  */
+#size, #ingredients, #pizza, #other{    
+	color: black;
+	font-size: 2.0em;
+}
+
+section{   			/* overflow fix  */
+	overflow: auto;
+}
+
+#navBar {       					/* nav bar css  */
 	background-color: rgb(79,115,2);
 	text-align: center;
 }
@@ -117,14 +148,16 @@ li {
 	list-style-type: none;
 }
 #sidebar{					/* sidebar */
- background-color: rgb(79,115,2);
- width: 140px;
- height: 340px;
- text-align: left;
- margin-left: 1125px;
+	background-color: rgb(79,115,2);
+	width: 140px;
+	height: 340px;
+	text-align: left;
+	margin: 0px auto;
+	margin-left: 85%;
 }
 
 
 #footer {						/* footer  */
 	text-align: center ;
 }
+
