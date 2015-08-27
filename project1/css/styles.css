@@ -34,7 +34,7 @@ h3{
 }
 
 h4{
-	font-size: 1.2;
+	font-size: 1.2em;
 }
 
 #content{                         /* content  */
@@ -126,7 +126,7 @@ a:active{
 	color: rgb(242,25,5);
 }
 
-#navBar li {					/* list css */
+#navBar li {					/* navbar style */
 	list-style-type: none;
 	display: inline;
 	margin-right: 20px;
@@ -184,4 +184,74 @@ table{
 
 tr:hover{
 	background-color: rgb(79,115,2);
+}
+
+form{					/* form styling  */
+	width: 50%;
+	margin: 0 auto; 
+	padding: 20px;
+	background-color: rgb(169,191,4);
+	border: 1px solid black;
+	overflow: auto;
+}
+
+fieldset{
+	border: 0;
+	border-bottom:2px solid rgb(79,115,2);
+}
+
+legend{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+input{					/* input style  */
+	width: 140px;
+	height: 25px;
+	margin: 10px auto; 
+	border: 1px solid #000;
+	padding: 1px;
+	float: left;
+	
+}
+
+input:hover, input:focus{
+	background-color:#40BFA8;
+	border: 1px solid #fff;
+}
+
+#submit{      		/* join button style  */
+	width: 20%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+#button{
+	width: 120px;
+	border: 1px solid #006633;
+	background-color: #009966;
+	color: #ffffff;
+	padding: 5px;
+	margin: 10px auto;
+}
+
+#button:hover{
+	background-color: rgb(188,250,5);
+	cursor: pointer;
+}
+
+.title{   		/* labels   */
+	width: 80px;
+	margin: 5px;
+	float: left;
+	clear: both;
+} 
+
+select{
+	float: left;
+}
+
+.check{
+	float:left;
+	
 }
