@@ -1,0 +1,172 @@
+/************************ Main Styles ************************/
+
+body{			/* body/header styles  */
+	width: 100%;
+	overflow: auto;
+	margin: 0 auto;
+	font: 16px / 1.5 "Open Sans", sans-serif;
+	color: #666;
+	
+	
+}
+
+header{
+	width: 100%;
+	height: 754px;
+	background: url("../images/homebackground.jpg") no-repeat fixed;
+	border: 2px solid black;
+}
+
+h1{
+	width: 219px;
+	height: 62px; 
+	margin: 30px auto 0;
+	background: url("../images/logo.png") no-repeat;
+	color: rgba(0,0,0,0)
+}
+
+nav{						/* nav bar styling  */
+	text-align: center;
+	border-top: 1px #fff dashed;
+	border-bottom: 1px #fff dashed;
+}
+
+nav li{
+	width: 550px;
+	list-style-type: none;
+	display: inline;
+	padding: 0 15px 0;
+	
+}
+
+nav a{
+	text-decoration: none;
+	color: #dddddd;
+
+}
+
+#current-page{
+	color: #d93600;
+}
+
+nav a:hover{
+	color: #d93600;
+}
+
+#slogan{				/* slogan style   */
+	width: 800px;
+	margin: 0 auto;
+}
+
+h2{
+	font-size: 60px;
+	color: #ffffff;
+}
+
+#slogan p{
+	font-size: 34px;
+	color: #ffffff;
+	text-align: center;
+}
+
+#promo{				/* promo styling   */
+	width: 1130px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.promo-col{
+	width: 255px;
+	margin-top: 20px;
+	float:left; 
+}
+
+.promo-col p{
+	text-align:center;
+}
+
+#coffee{
+	margin-right: 30px;
+	padding-top: 80px;
+	background: url("../images/ico_coffee.png") no-repeat top;
+	text-align: center;
+}
+
+#music{
+	margin-right: 30px;
+	padding-top: 80px;
+	background: url("../images/ico_music.png") no-repeat top;
+	text-align: center;
+	overflow: auto;
+}
+
+#food{
+	margin-right: 30px;
+	padding-top: 80px;
+	background: url("../images/ico_food.png") no-repeat top;
+	text-align: center;
+	overflow: auto;
+}
+
+#service{
+	
+	padding-top: 80px;
+	background: url("../images/ico_service.png") no-repeat top;
+	text-align: center;
+	overflow: auto;
+}
+
+#featured{						/* featured styling  */
+	width: 1130px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+#featured h2{
+	font-size: 34px;
+	color: #868686;
+	text-align: center;
+}
+
+#featured-first-col{
+	margin:0 ;
+} 
+
+.featured-col{
+	width: 350px;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	float:left;
+	overflow: auto;
+	text-align: center;
+}
+
+
+
+h3{
+	color: #d93600;
+}
+
+
+.read-more{
+	width: 200px;
+	margin-top: 20px;
+	padding: 10px 30px;
+	background-color: #d93600;
+	float: right;
+	clear: both;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.read-more:hover{
+	background-color: #999999;
+}
+
+footer{				/* footer styling   */
+	padding: 40px 0;
+	font-size: 12px;
+	background-color: #111111;
+	color: #fff;
+	text-align: center;
+}

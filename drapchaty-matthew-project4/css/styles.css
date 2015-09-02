@@ -1,0 +1,257 @@
+#page {                               /* main styles  */
+	color: rgb(166,3,3);
+	background-color: rgba(191,91,4,.7);       
+	width: 100%;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4{
+	padding: 40px;
+	text-align: center;
+	font-family: Oswald, Arial, sans-serif;
+}
+
+p{
+	font-weight: normal;
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+	line-height: 1em;
+}
+
+h1{
+	
+	font-size: 2.4em;
+	text-shadow: 2px 2px #ff0000; 
+}
+
+h2{
+	font-size: 1.9em;
+	text-decoration: underline;
+}
+
+h3{
+	font-size: 1.5em;
+}
+
+h4{
+	font-size: 1.2em;
+}
+
+#content{                         /* content  */
+	text-align: center;
+	overflow: auto;
+}
+
+#image1, #image2, #image3{			/* images/links styling*/
+	border-radius: 10px;
+	width: 80%;
+	margin: 0px auto;
+	background-color: rgb(79,115,2);
+	box-shadow: 10px 10px 5px rgb(30,43,1);
+}
+
+#image1 a{
+	border: 2px solid;
+	width: 650px;
+	height: 487px;
+	display: block;
+	margin: 20px auto;
+}
+
+#image2 a{
+	border: 2px solid;
+	width: 373px;
+	height: 248px;
+	display: block;
+	margin: 20px auto;
+} 
+
+#image3 a{
+	border: 2px solid;
+	width: 367px;
+	height: 271px;
+	display: block;
+	margin: 20px auto;
+} 
+
+.subIng{
+	font-size: 1.33em;
+	font-weight: bold;
+	text-decoration: underline; 
+} 
+
+.table{
+
+}
+
+
+#size{              /* icon  */ 
+	height: 100px;
+	background: url("../images/icon.png") no-repeat 35% 50%;
+	
+}
+
+#size, #ingredients, #pizza, #other{    
+	color: black;
+	font-size: 2.0em;
+}
+
+section{   			/* overflow fix  */
+	overflow: auto;
+}
+
+#navBar {       					/* nav bar css  */
+	background-color: rgb(79,115,2);
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+} 
+
+a:link{
+	color: rgb(169,191,4);	
+}
+a:visited{
+	color: rgb(242,25,5);
+}
+a:hover{
+	color: rgb(79,115,2);
+}
+a:active{
+	color: rgb(163,3,3);
+}
+
+.cap{						/*		figcap    */
+	color: rgb(242,25,5);
+}
+
+#navBar li {					/* navbar style */
+	list-style-type: none;
+	display: inline;
+	margin-right: 20px;
+}
+#list1 li {
+	list-style-type: upper-roman;
+}
+
+li {
+	margin-top: 15px;
+	list-style-type: none;
+}
+#sidebar{					/* sidebar */
+	background-color: rgb(79,115,2);
+	width: 140px;
+	height: 340px;
+	text-align: left;
+	margin: 0px auto;
+	margin-left: 85%;
+}
+
+
+#footer {						/* footer  */
+	text-align: center ;
+}
+								
+td{									/* table styling  */
+	padding: 10px 20px 5px 10px;
+	font-size: 1.2em;
+	border-bottom: 1px solid rgb(79,115,2);
+	text-shadow: 1px 1px 1px rgb(79,115,2);  
+}
+
+th{
+	text-transform: uppercase;
+	text-align:left;
+	padding: 10px 20px 5px 10px;
+	font-size: 1.5em;
+	border: 2px solid rgb(79,115,2);
+	text-shadow: 2px 2px 2px rgb(79,115,2);  
+}
+
+table{
+	width: 80%;
+	margin: 10px auto;
+	background-color: rgb(169,191,4);
+	border: 0px;
+	border-spacing: 0;
+}
+
+.even{
+	background-color: rgb(140,166,3);
+	
+}
+
+tr:hover{
+	background-color: rgb(79,115,2);
+}
+
+form{					/* form styling  */
+	width: 50%;
+	margin: 0 auto; 
+	padding: 20px;
+	background-color: rgb(169,191,4);
+	border: 1px solid black;
+	overflow: auto;
+}
+
+fieldset{
+	border: 0;
+	border-bottom:2px solid rgb(79,115,2);
+}
+
+legend{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+input{					/* input style  */
+	width: 140px;
+	height: 25px;
+	margin: 10px auto; 
+	border: 1px solid #000;
+	padding: 1px;
+	float: left;
+	
+}
+
+input:hover, input:focus{
+	background-color:#40BFA8;
+	border: 1px solid #fff;
+}
+
+#submit{      		/* join button style  */
+	width: 20%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+#button{
+	width: 120px;
+	border: 1px solid #006633;
+	background-color: #009966;
+	color: #ffffff;
+	padding: 5px;
+	margin: 10px auto;
+}
+
+#button:hover{
+	background-color: rgb(188,250,5);
+	cursor: pointer;
+}
+
+.title{   		/* labels   */
+	width: 80px;
+	margin: 5px;
+	float: left;
+	clear: both;
+} 
+
+select{
+	float: left;
+}
+
+.check{
+	float:left;
+	
+}
